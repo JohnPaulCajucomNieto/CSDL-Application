@@ -1,0 +1,217 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    border: inherit;
+    border-color: transparent;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+    linear-gradient(45deg, rgba(24, 47, 126, 0.678), rgba(24, 47, 126, 0.678)),
+    url('../images/au-south.jpg');
+    background-attachment: fixed;
+}
+.main-header {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo {
+    height: 100px;
+    width: auto;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+img {
+    width: auto;
+    height: 90px;
+}
+.title-head{
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(24, 47, 126);
+}
+.navigation {
+    justify-content: space-between;
+    align-content: center;
+}
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(24, 47, 126);
+    text-align: center;
+    position: relative;
+    left: 110px;
+}
+
+.navi1{
+    margin-right: 50px;
+}
+.navi1:hover, .navi2:hover, .navi3:hover{
+    text-decoration: underline 2px solid black;
+}
+
+.navi3 {
+    margin-left:50px;
+    
+}
+.searchtopic{
+    font-family: Montserrat;
+    background-color: rgb(238, 238, 238);
+    border-color: transparent;
+    border-radius: 20px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+  }
+  .searchicon {
+    position: relative;
+    right: 330px;
+    top: 10px;
+    transform: translateY(-50%);
+  }
+  
+
+input[type="search"]{
+    outline: none;
+}  
+h2{
+
+    padding-left:25px;
+    text-align: center;
+}
+
+.school-header{
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    color:rgb(252, 248, 248);
+    font-size:20px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.school-header h2{
+    margin-left: 400px;
+    width: 700px;
+    color: white;
+  font-size: 40px;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+table{
+    position: absolute;
+    width: 1200px;
+    margin-left:200px;
+    border-spacing:60px;
+    top: 250px;
+}
+tr{
+    height: 300px;
+    width:600px;
+    text-align: center;
+}
+#B1{
+    background-image: url(../images/AU_Main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B2{
+    background-image: url(../images/Upang.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B3{
+    background-image: url(../images/RC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B4{
+    background-image: url(../images/RCL.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B5{
+    background-image: url(../images/UCL.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B6{
+    background-image: url(../images/au-south.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B7{
+    background-image: url(../images/SJCC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B8{
+    background-image: url(../images/UI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B9{
+    background-image: url(../images/SWU.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B10{
+    background-image: url(../images/COC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#B11{
+    background-image: url(../images/SJC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div {
+    margin-left: 180px;
+    height: 150px;
+    width:700px;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding-top:60px;
+    border-radius: 15px;
+}
+
+.ft{
+
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    position: relative;
+    top: 4000px;
+    width: 100%;
+  }
+.ic{
+    height: 60px;
+  }
+  

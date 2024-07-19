@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:
+    linear-gradient(45deg, rgba(24, 47, 126, 0.678), rgba(24, 47, 126, 0.678)),
+    url('../images/au-south.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:'Tilt Warp';
+}
+
+
+.main-header {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;    
+    position: fixed;
+}
+.logo {
+    height: 100px;
+    width: auto;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+img {
+    width: auto;
+    height: 90px;
+}
+.title-head{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(24, 47, 126);
+}
+.navigation {
+    justify-content: space-between;
+    align-content: center;
+}
+
+    a {
+        text-decoration: none;
+        font-size: 17px;
+        color: rgb(24, 47, 126);
+        text-align: center;
+        position: relative;
+        right:  410px;
+      }
+
+
+.navi1{
+    margin-right: 50px;
+}
+.navi1:hover, .navi2:hover, .navi3:hover{
+    text-decoration: underline 2px solid black;
+}
+
+.navi3 {
+    margin-left:50px;
+}
+.searchtopic{
+    font-family: Montserrat;
+    background-color: antiquewhite;
+    border-color: transparent;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.ft{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    position: relative;
+    margin-top: 80px;
+    width: 97.2.5%;
+  
+  }
+  .ic{
+    height: 60px;
+  }
+
+#content{
+    padding-top: 100px;
+    width: 100%;
+    height: 900px;
+
+  }
+.info {
+    margin-top: 100px;
+    margin-left: 170px;
+    float: left;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.info:hover{
+ background-color: black;
+ color: white;   
+  border: 2px solid ;
+}
+
+.info img{
+    margin: 20px 40px;
+    float: left;
+}
+
+.info p{
+    font-size: 18;
+    font-family:'Tilt Warp';
+}
+
+.info .in{
+    line-height: 30px;
+    width: 300px;
+    height: 280px;
+    margin-left: 200px;
+    padding-top: 40px;
+}
